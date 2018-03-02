@@ -4,10 +4,9 @@
 public class Base7_504 {
     public static void main(String [] args)
     {
-        Base7_504 solution = new Base7_504();
-        System.out.println(solution.convertToBase7(86));
+        System.out.println(convertToBase7(86));
     }
-    public String convertToBase7(int num) {
+    public static String convertToBase7(int num) {
         StringBuilder s = new StringBuilder();
 
         int r = num, signed = 0;

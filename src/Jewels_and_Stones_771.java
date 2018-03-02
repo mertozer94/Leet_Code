@@ -7,10 +7,9 @@ public class Jewels_and_Stones_771 {
 
     public static void main(String [] args)
     {
-        Jewels_and_Stones_771 solution = new Jewels_and_Stones_771();
-        System.out.println(solution.numJewelsInStones("aA", "aAAbbbb"));
+        System.out.println(numJewelsInStones("aA", "aAAbbbb"));
     }
-    public int numJewelsInStones(String J, String S) {
+    public static int numJewelsInStones(String J, String S) {
         int num = 0;
         ArrayList list = new ArrayList();
         for (char j:J.toCharArray())

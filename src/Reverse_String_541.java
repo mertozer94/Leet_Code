@@ -5,13 +5,11 @@ public class Reverse_String_541 {
 
     public static void main(String [] args)
     {
-        Reverse_String_541 solution = new Reverse_String_541();
 
-        System.out.println(solution.reverseStr("hyzqyljrnigxvdtneasepfahmtyhlohwxmkqcdfehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqlimjkfnqcqnajmebeddqsgl",39));
-        //System.out.println(solution.reverseStr("abcdefqa",3));
+        System.out.println(reverseStr("hyzqyljrnigxvdtneasepfahmtyhlohwxmkqcdfehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqlimjkfnqcqnajmebeddqsgl",39));
 
     }
-    public String reverseStr(String s, int k) {
+    public static String reverseStr(String s, int k) {
 
 
         for (int i = 0; i < s.length(); i += 2 * k){
