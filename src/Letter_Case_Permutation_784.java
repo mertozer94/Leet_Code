@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ public class Letter_Case_Permutation_784 {
 
     }
     public List<String> letterCasePermutation(String S) {
-
+        return new ArrayList<>();
     }
 
 }
