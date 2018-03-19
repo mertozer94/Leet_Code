@@ -1,9 +1,12 @@
 /**
  * @author Mert Ozer
+ * Given a column title as appear in an Excel sheet, return its corresponding column number.
+
+
  */
 public class Excel_Sheet_Column_Number_171 {
     public static void main(String[] args){
-        System.out.printf(""+titleToNumber("AB"));
+        System.out.println(""+titleToNumber("AB"));
     }
     public static int titleToNumber(String s) {
         int result = 0;

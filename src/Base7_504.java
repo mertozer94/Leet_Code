@@ -1,5 +1,8 @@
 /**
  * @author Mert Ozer
+ * Given an integer, return its base 7 string representation.
+
+
  */
 public class Base7_504 {
     public static void main(String [] args)
