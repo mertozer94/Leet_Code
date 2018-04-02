@@ -12,6 +12,18 @@ public class House_Robber_198 {
         System.out.println(rob(nums));
     }
     public static int rob(int[] nums) {
+        int even = 0;
+        int odd = 0;
 
+        for (int i = 0; i < nums.length; i++)
+        {
+            if (i % 2 == 0)
+                even = Math.max(even + nums[i], odd);
+            else
+                odd = Math.max(even, odd + nums[i]);
+
+        }
+
+        return Math.max(even, odd);
     }
 }
