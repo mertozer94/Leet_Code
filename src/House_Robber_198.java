@@ -7,7 +7,7 @@ Given a list of non-negative integers representing the amount of money of each h
 public class House_Robber_198 {
 
     public static void main(String[] args){
-        //int[] nums = {4,5,1,8,10,2};
+        //int[] nums = {4,2,1,8,10,3};
         int[] nums = {1};
         System.out.println(rob(nums));
     }
